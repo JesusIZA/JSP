@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Servlet3</title>
+</head>
+<body>
+	<form action="MyServlet">
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="fName"></td>
+			</tr>
+			<tr>
+				<td>Surname:</td>
+				<td><input type="text" name="lName"></td>
+			</tr>
+			<tr>
+				<td>Profesia:</td>
+				<td>
+					<select name="job">
+						<option value="Developer">Developer</option>
+						<option selected="selected" value="Tester">Tester</option>
+						<option value="Analyst">Analitik</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Hobbies:</td>
+				<td>
+					<select name="hobbies" multiple="multiple">
+						<option value="Music">Music</option>
+						<option selected="Reading" value="Reading">Reading</option>
+						<option value="Swiming">Swiming</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Sex:</td>
+				<td>
+					<input type="radio" name="gender" value="M">Man
+					<input type="radio" name="gender" value="W">Woman
+				</td>
+			</tr>
+			<tr>
+				<td>Are you older than 18?</td>
+				<td><input type="checkbox" name="age18" value="Yes">Yes</td>
+			</tr>
+			<tr>
+				<td align="right" colspan="2"><input type="submit" value="Send data"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
